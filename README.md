@@ -1,55 +1,148 @@
-## Corentin Batard
+<div align="center">
 
-Independent developer on the French Atlantic coast. I run [CodWingz](https://codwingz.com),
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0%3A0F2027%2C50%3A203A43%2C100%3A2C5364&height=200&section=header&text=Corentin+Batard&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=Independent+developer++%C2%B7++CodWingz&descAlignY=56&descSize=16&animation=fadeIn" width="100%" alt="Corentin Batard" />
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3500&pause=900&color=58A6FF&center=true&vCenter=true&width=760&height=60&lines=Independent+developer+at+CodWingz%3BFlutter+%C2%B7+Laravel+%C2%B7+React+%C2%B7+Python%3BTeaching+a+neural+net+to+play+Mindustry" alt="" />
+
+<a href="https://github.com/yamakajump/yamakajump/blob/main/README.md"><img src="https://img.shields.io/badge/English-0F2027?style=for-the-badge" alt="English" /></a>
+<a href="https://github.com/yamakajump/yamakajump/blob/main/README.fr.md"><img src="https://img.shields.io/badge/Fran%C3%A7ais-gray?style=for-the-badge" alt="Français" /></a>
+
+</div>
+
+Independent developer on the French Atlantic coast. I run [**CodWingz**](https://codwingz.com),
 a one-person software company, which means I write the code, run the servers, answer the
 support mail and send the invoices.
 
-Most of my work is closed source, so this profile is a slice rather than the whole thing.
+The products are closed source, so this profile is a slice rather than the whole thing.
 Here is the honest map.
 
-### What I ship
+---
 
-**[Tifox](https://tifox-maternelle.fr)** is a progress-book SaaS for French preschool
-teachers. They photograph what a child achieved, tick the matching skill from the national
-curriculum, and get a print-ready PDF at the end of the term instead of an evening of
-paperwork. Flutter on Android and iOS, Laravel 11 API, React front, all three live.
+## What I build
 
-**Brainy** is an AI accountability companion. It remembers who you are, structures your
-goals, and comes after you when you drift. Flutter, Laravel, streaming LLM chat.
+### 🦊 Tifox &nbsp;·&nbsp; live since March 2026
 
-Both are private repositories. The code that pays rent does not go on GitHub.
+**A progress-book SaaS for French preschool teachers.** [tifox-maternelle.fr](https://tifox-maternelle.fr)
 
-### What is public
+French preschool teachers have to document what every child in their class has achieved,
+skill by skill, against the national curriculum. Most of them still do it on paper or in a
+spreadsheet, in the evening, three times a year, for thirty children at once.
 
-**[mindustry-ai](https://github.com/yamakajump/mindustry-ai)** is where the interesting
-problem is. Mindustry is a factory-building tower defense game, and winning it needs three
-things that rarely appear together: long-horizon economics, spatial reasoning on a grid, and
-reactive combat. Factorio has a learning environment. StarCraft II has pysc2. Mindustry had
-nothing, so I am building it: a JVM mod that exposes game state, a Gymnasium environment on
-top, and a replay viewer that renders training runs inside the real game client.
+Tifox turns that into two taps. The teacher photographs what a child just did, ticks the
+matching skill, and the app files it. At the end of the term it assembles everything into a
+print-ready booklet.
 
-**[EDT-discord-bot](https://github.com/yamakajump/EDT-discord-bot)** runs a French fitness
-community. Members upload their gym export, the bot turns it into heatmaps and streaks,
-computes their nutrition and one-rep-max numbers, and promotes them through roles as they
-show up. Around fifty slash commands, MySQL, Docker, deployed by GitHub Actions.
+| | |
+|---|---|
+| **Curriculum built in** | The official 2026 programme, six domains, straight from the *Bulletin officiel*. The 2015 version is kept as versioned history, so a booklet started under the old programme stays coherent. |
+| **Four assessment levels** | Not acquired, in progress, acquired, exceeded. |
+| **Fifty-plus booklet designs** | A document that goes home to parents is also an object. |
+| **Three platforms, all live** | Android, iOS and web, from one Flutter codebase plus a React front. |
+| **Free for three children** | Then annual plans from 12 to 25 euros for a whole class. No monthly subscription, teachers think in school years. |
 
-**[discord-bot-template](https://github.com/yamakajump/discord-bot-template)** is the
-skeleton underneath all of that, extracted so the next bot starts at hour zero instead of
-week one. Nested commands, buttons, modals, select menus and a MySQL DAO layer, all loaded
-dynamically from the filesystem.
+Teachers use it across every region of mainland France, and in the overseas territories:
+Guadeloupe, Martinique, French Guiana, Réunion, Mayotte and the Pacific.
 
-The **Basic-Fit suite** ([launcher](https://github.com/yamakajump/Basicfit_discord-bot),
-[coach](https://github.com/yamakajump/Basicfit-Coach_discord-bot),
-[manager](https://github.com/yamakajump/Basicfit-Manager_discord-bot),
-[security](https://github.com/yamakajump/Basicfit-Securite_discord-bot)) came first, three
-bots split by concern and held together by git submodules.
+`Flutter` `Laravel 11` `React` `TypeScript` `MySQL`. Private repositories.
 
-### Stack
+### 🧠 Brainy &nbsp;·&nbsp; in development
+
+**The one I am building right now.** An AI accountability companion.
+
+A habit tracker records that you failed. Brainy is meant to notice and say something. It
+remembers who you are across conversations, turns vague intentions into structured goals, and
+comes after you when you drift instead of waiting politely to be opened.
+
+Flutter app, Laravel API, streaming LLM chat, and a memory layer that persists between
+sessions. Not released yet.
+
+`Flutter` `Laravel` `LLM`. Private repositories.
+
+---
+
+## What is public
+
+### 🤖 [mindustry-ai](https://github.com/yamakajump/mindustry-ai)
+
+This is where the interesting problem is. Mindustry is a factory-building tower defense game,
+and winning it needs three things that rarely appear together: long-horizon economics, spatial
+reasoning on a grid, and reactive combat. Factorio has a learning environment. StarCraft II has
+pysc2. Mindustry had nothing, so I am building it: a JVM mod that exposes game state, a
+Gymnasium environment on top, and a replay viewer that renders training runs inside the real
+game client.
+
+### 🐯 [EDT-discord-bot](https://github.com/yamakajump/EDT-discord-bot)
+
+Runs a French fitness community. Members upload their gym export, the bot turns it into
+heatmaps and streaks, computes their nutrition and one-rep-max numbers, and promotes them
+through roles as they show up. Around fifty slash commands, MySQL, Docker, deployed by
+GitHub Actions.
+
+### 🏆 [esport-discord-bot](https://github.com/yamakajump/esport-discord-bot)
+
+Tournament management for esport communities. Teams register themselves, match results feed
+the bracket, and every tournament carries its own logo.
+
+---
+
+## Stack
 
 Dart and Flutter for mobile. PHP and Laravel for APIs. TypeScript and React for the web.
-Node and Python for everything else. MySQL, Docker, GitHub Actions, and servers I administer
-myself: a Proxmox box at home for development, a VPS in production.
+Node and Python for everything else. And servers I administer myself: a Proxmox box at home
+for development, a VPS in production.
 
-### Reach me
+<div align="center">
 
-[codwingz.com](https://codwingz.com) · corentin@codwingz.com
+<img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
+<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+<img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=white" alt="React" />
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+<img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+<img src="https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white" alt="Proxmox" />
+
+</div>
+
+---
+
+## Activity
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=yamakajump&theme=github-dark&hide_border=true&locale=en&date_format=j+M%5B+Y%5D" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=yamakajump&theme=default&hide_border=true&locale=en&date_format=j+M%5B+Y%5D" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yamakajump&theme=default&hide_border=true&locale=en&date_format=j+M%5B+Y%5D" alt="Streak" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=yamakajump&theme=github-dark&hide_border=true&area=true&radius=8" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=yamakajump&theme=github-light&hide_border=true&area=true&radius=8" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yamakajump&theme=github-light&hide_border=true&area=true&radius=8" alt="Activity graph" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yamakajump/yamakajump/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yamakajump/yamakajump/output/snake.svg" />
+  <img src="https://raw.githubusercontent.com/yamakajump/yamakajump/output/snake.svg" alt="Contribution graph eaten by a snake" />
+</picture>
+
+</div>
+
+---
+
+## Reach me
+
+<div align="center">
+
+<a href="https://codwingz.com"><img src="https://img.shields.io/badge/codwingz.com-0F2027?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
+<a href="mailto:corentin@codwingz.com"><img src="https://img.shields.io/badge/corentin@codwingz.com-203A43?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email" /></a>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0%3A2C5364%2C50%3A203A43%2C100%3A0F2027&height=120&section=footer" width="100%" alt="" />
