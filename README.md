@@ -1,16 +1,16 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0%3A0F2027%2C50%3A203A43%2C100%3A2C5364&height=200&section=header&text=Corentin+Batard&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=Independent+developer++%C2%B7++CodWingz&descAlignY=56&descSize=16&animation=fadeIn" width="100%" alt="Corentin Batard" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0%3A0F2027%2C50%3A203A43%2C100%3A2C5364&height=200&section=header&text=Corentin+Batard&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=Independent+developer+%C2%B7+Tifox+%C2%B7+Brainy&descAlignY=56&descSize=16&animation=fadeIn" width="100%" alt="Corentin Batard" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3500&pause=900&color=58A6FF&center=true&vCenter=true&width=760&height=60&lines=Independent+developer+at+CodWingz%3BFlutter+%C2%B7+Laravel+%C2%B7+React+%C2%B7+Python%3BTeaching+a+neural+net+to+play+Mindustry" alt="" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3500&pause=900&color=58A6FF&center=true&vCenter=true&width=760&height=60&lines=Independent+developer%2C+sole+trader%3BI+build+my+own+SaaS%3A+Tifox%2C+Brainy%3BFlutter+%C2%B7+Laravel+%C2%B7+React+%C2%B7+Python" alt="" />
 
 <a href="https://github.com/yamakajump/yamakajump/blob/main/README.md"><img src="https://img.shields.io/badge/English-0F2027?style=for-the-badge" alt="English" /></a>
 <a href="https://github.com/yamakajump/yamakajump/blob/main/README.fr.md"><img src="https://img.shields.io/badge/Fran%C3%A7ais-gray?style=for-the-badge" alt="Français" /></a>
 
 </div>
 
-Independent developer on the French Atlantic coast. I run [**CodWingz**](https://codwingz.com),
-a one-person software company, which means I write the code, run the servers, answer the
+Independent developer on the French Atlantic coast. I design and run my own products,
+as a sole trader, which means I write the code, run the servers, answer the
 support mail and send the invoices.
 
 The products are closed source, so this profile is a slice rather than the whole thing.
@@ -32,7 +32,7 @@ Tifox turns that into two taps. The teacher photographs what a child just did, t
 matching skill, and the app files it. At the end of the term it assembles everything into a
 print-ready booklet.
 
-| | |
+| What is in it | What it changes |
 |---|---|
 | **Curriculum built in** | The official 2026 programme, six domains, straight from the *Bulletin officiel*. The 2015 version is kept as versioned history, so a booklet started under the old programme stays coherent. |
 | **Four assessment levels** | Not acquired, in progress, acquired, exceeded. |
@@ -48,13 +48,14 @@ Guadeloupe, Martinique, French Guiana, Réunion, Mayotte and the Pacific.
 ### 🧠 Brainy &nbsp;·&nbsp; in development
 
 **The one I am building right now.** An AI accountability companion.
+[my-brainy-ai.com](https://my-brainy-ai.com)
 
 A habit tracker records that you failed. Brainy is meant to notice and say something. It
 remembers who you are across conversations, turns vague intentions into structured goals, and
 comes after you when you drift instead of waiting politely to be opened.
 
 Flutter app, Laravel API, streaming LLM chat, and a memory layer that persists between
-sessions. Not released yet.
+sessions. The site is live, the app is not released yet.
 
 `Flutter` `Laravel` `LLM`. Private repositories.
 
