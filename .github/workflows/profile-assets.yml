@@ -1,0 +1,50 @@
+name: Génère les visuels du profil
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupère le dépôt
+        uses: actions/checkout@v4
+
+      - name: Génère le serpent à partir du graphe de contributions
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg?palette=github-light
+            dist/snake-dark.svg?palette=github-dark
+
+      - name: Installe Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Génère les cartes de statistiques
+        env:
+          PROFILE_USER: ${{ github.repository_owner }}
+          OUT_DIR: dist
+        run: python tools/profile_stats.py
+
+      - name: Publie les visuels sur la branche output
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -78,10 +78,6 @@ heatmaps and streaks, computes their nutrition and one-rep-max numbers, and prom
 through roles as they show up. Around fifty slash commands, MySQL, Docker, deployed by
 GitHub Actions.
 
-### 🏆 [esport-discord-bot](https://github.com/yamakajump/esport-discord-bot)
-
-Tournament management for esport communities. Teams register themselves, match results feed
-the bracket, and every tournament carries its own logo.
 
 ---
 
@@ -115,9 +111,9 @@ for development, a VPS in production.
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=yamakajump&theme=github-dark&hide_border=true&locale=en&date_format=j+M%5B+Y%5D" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=yamakajump&theme=default&hide_border=true&locale=en&date_format=j+M%5B+Y%5D" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yamakajump&theme=default&hide_border=true&locale=en&date_format=j+M%5B+Y%5D" alt="Streak" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yamakajump/yamakajump/output/stats-en-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yamakajump/yamakajump/output/stats-en-light.svg" />
+  <img src="https://raw.githubusercontent.com/yamakajump/yamakajump/output/stats-en-light.svg" alt="Contributions" />
 </picture>
 
 <picture>
