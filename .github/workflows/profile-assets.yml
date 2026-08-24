@@ -22,14 +22,6 @@ jobs:
       - name: Récupère le dépôt
         uses: actions/checkout@v4
 
-      - name: Génère le serpent à partir du graphe de contributions
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/snake.svg?palette=github-light
-            dist/snake-dark.svg?palette=github-dark
-
       - name: Installe Python
         uses: actions/setup-python@v5
         with:
@@ -40,6 +32,14 @@ jobs:
           PROFILE_USER: ${{ github.repository_owner }}
           OUT_DIR: dist
         run: python tools/profile_stats.py
+
+      - name: Génère le serpent à partir du graphe de contributions
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg?palette=github-light
+            dist/snake-dark.svg?palette=github-dark
 
       - name: Publie les visuels sur la branche output
         uses: crazy-max/ghaction-github-pages@v4
