@@ -1,17 +1,17 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0%3A0F2027%2C50%3A203A43%2C100%3A2C5364&height=200&section=header&text=Corentin+Batard&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=D%C3%A9veloppeur+ind%C3%A9pendant+%C2%B7+Tifox+%C2%B7+Brainy&descAlignY=56&descSize=16&animation=fadeIn" width="100%" alt="Corentin Batard" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0%3A0F2027%2C50%3A203A43%2C100%3A2C5364&height=200&section=header&text=Corentin+Batard&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=D%C3%A9veloppeur+ind%C3%A9pendant&descAlignY=56&descSize=16&animation=fadeIn" width="100%" alt="Corentin Batard" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3500&pause=900&color=58A6FF&center=true&vCenter=true&width=760&height=60&lines=D%C3%A9veloppeur+ind%C3%A9pendant+en+microentreprise%3BJe+cr%C3%A9e+mes+propres+SaaS+%3A+Tifox%2C+Brainy%3BFlutter+%C2%B7+Laravel+%C2%B7+React+%C2%B7+Python" alt="" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3500&pause=900&color=58A6FF&center=true&vCenter=true&width=760&height=60&lines=D%C3%A9veloppeur+ind%C3%A9pendant%3BTifox+%C2%B7+Brainy+%C2%B7+mindustry-ai%3BJ%27apprends+%C3%A0+un+r%C3%A9seau+de+neurones+%C3%A0+jouer+%C3%A0+Mindustry" alt="" />
 
 <a href="https://github.com/yamakajump/yamakajump/blob/main/README.md"><img src="https://img.shields.io/badge/English-gray?style=for-the-badge" alt="English" /></a>
 <a href="https://github.com/yamakajump/yamakajump/blob/main/README.fr.md"><img src="https://img.shields.io/badge/Fran%C3%A7ais-0F2027?style=for-the-badge" alt="Français" /></a>
 
 </div>
 
-Développeur indépendant sur la côte atlantique. Je conçois et j'exploite mes propres
-produits, en microentreprise, ce qui veut dire que j'écris le code, j'administre les
-serveurs, je réponds au support et j'envoie les factures.
+Développeur indépendant sur la côte atlantique. Je construis et fais tourner mes propres
+produits, ce qui veut dire que j'écris le code, j'administre les serveurs, je réponds au
+support et j'envoie les factures.
 
 Les produits sont fermés, donc ce profil en montre une tranche plutôt que l'ensemble.
 Voici la carte honnête.
@@ -32,7 +32,7 @@ Tifox ramène ça à deux clics. L'enseignante photographie ce que l'enfant vien
 la compétence correspondante, l'application classe. En fin de période, elle assemble le tout en
 un cahier prêt à imprimer.
 
-| Ce qu'il y a dedans | Ce que ça change |
+| | |
 |---|---|
 | **Programme officiel intégré** | Le programme 2026, six domaines, directement issu du *Bulletin officiel*. La version 2015 est conservée en historique versionné, pour qu'un cahier commencé sous l'ancien programme reste cohérent. |
 | **Quatre niveaux d'évaluation** | Non acquis, en cours, acquis, dépassé. |
@@ -47,8 +47,7 @@ outre-mer : Guadeloupe, Martinique, Guyane, La Réunion, Mayotte et le Pacifique
 
 ### 🧠 Brainy &nbsp;·&nbsp; en cours de développement
 
-**Celui sur lequel je suis en ce moment.** Un compagnon d'accountability propulsé par l'IA.
-[my-brainy-ai.com](https://my-brainy-ai.com)
+**Celui sur lequel je suis en ce moment.** Un compagnon d'accountability propulsé par l'IA. [my-brainy-ai.com](https://my-brainy-ai.com)
 
 Un suivi d'habitudes enregistre que tu as échoué. Brainy, lui, est censé le remarquer et te
 dire quelque chose. Il retient qui tu es d'une conversation à l'autre, transforme des
@@ -56,7 +55,7 @@ intentions vagues en objectifs structurés, et vient te chercher quand tu dévie
 d'attendre poliment qu'on l'ouvre.
 
 Application Flutter, API Laravel, chat LLM en streaming, et une couche de mémoire qui persiste
-entre les sessions. Le site est en ligne, l'application pas encore sortie.
+entre les sessions. Pas encore sorti.
 
 `Flutter` `Laravel` `LLM`. Dépôts privés.
 
