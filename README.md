@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0%3A0F2027%2C50%3A203A43%2C100%3A2C5364&height=200&section=header&text=Corentin+Batard&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=Independent+developer&descAlignY=56&descSize=16&animation=fadeIn" width="100%" alt="Corentin Batard" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3500&pause=900&color=58A6FF&center=true&vCenter=true&width=760&height=60&lines=Independent+developer%3BTifox+%C2%B7+Brainy+%C2%B7+mindustry-ai%3BTeaching+a+neural+net+to+play+Mindustry" alt="" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3800&pause=900&color=58A6FF&center=true&vCenter=true&width=760&height=60&lines=Independent+developer%3BTifox+%C2%B7+SaaS+for+preschool+teachers%3BBrainy+%C2%B7+AI+accountability+companion" alt="" />
 
 <a href="https://github.com/yamakajump/yamakajump/blob/main/README.md"><img src="https://img.shields.io/badge/English-0F2027?style=for-the-badge" alt="English" /></a>
 <a href="https://github.com/yamakajump/yamakajump/blob/main/README.fr.md"><img src="https://img.shields.io/badge/Fran%C3%A7ais-gray?style=for-the-badge" alt="Français" /></a>
